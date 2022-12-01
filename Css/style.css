@@ -112,21 +112,32 @@ i {
     color: #0d6efd;
 }
 
-@media (max-width: 575.98px) {
-    .container {
-        width: 75%;
-    }
-}
-
 @media (max-width: 576px) {
     .container {
         width: 90%;
     }
+   
+}
+@media (min-width: 576px) {
+    .container {
+        width: 90%;
+    }
+    .button-element,.edit-btn,
+    .remove-btn{
+        font-size: larger;
+    
+    }
+   
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .container {
         width: 65%;
+    }
+    .button-element,.edit-btn,
+    .remove-btn{
+        font-size: larger;
+    
     }
 }
 
@@ -134,10 +145,20 @@ i {
     .container {
         width: 60%;
     }
+    .button-element,.edit-btn,
+    .remove-btn{
+        font-size: larger;
+    
+    }
 }
 
 @media (min-width: 1200px) {
     .container {
         width: 50%;
+    }
+    .button-element,.edit-btn,
+    .remove-btn{
+        font-size:x-large;
+    
     }
 }
