@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: url('/To-do-list/image/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    color: white;
+
+}
+
+.container {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffc107;
+    border-radius: 15px;
+
+}
+
+.input-adder {
+    margin-bottom: 20px;
+}
+
+.input-adder,
+.to-do-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #cfa117;
+    border-radius: 10px;
+
+
+
+}
+
+.input-element,
+.to-do-data {
+    width: 70%;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #ffc107;
+    color: #351c75;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    border: 2px solid #ffc107;
+}
+
+.to-do-data {
+    padding: 4px;
+    overflow-y:hidden;
+    font-size: 1.5rem;
+    border-radius: 7px;
+    border: 0px solid;
+}
+
+.button-element {
+    width: 30%;
+    height: 40px;
+    margin: 5px;
+    background-color: #32d187;
+    border-radius: 7px;
+    border: 0px solid;
+    color: #351c75;
+
+}
+
+.edit-btn,
+.remove-btn {
+    width: 14.5%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 0px solid;
+    color: #351c75;
+}
+
+.edit-btn {
+    background-color: #0d6efd;
+
+}
+
+.remove-btn {
+    background-color: #dc3545;
+}
+
+h1 {
+    margin: 10px;
+    color: #351c75;
+}
+i{
+    color: #0d6efd;
+}
